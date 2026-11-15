@@ -1,0 +1,52 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Environments
+.venv/
+
+# Jupyter
+.ipynb_checkpoints/
+notebooks/.ipynb_checkpoints/
+notebooks/colab_prepare_banks.ipynb
+exploration.ipynb
+
+# Data
+data/
+
+# Modeles
+*.pth
+models/checkpoints/
+
+# Outputs 
+outputs/*.png
+outputs/*.json
+
+# Memory banks
+outputs/memory_banks/*
+!outputs/memory_banks/ready/
+!outputs/memory_banks/ready/*
+
+# Tables 
+outputs/tables/
+
+# Metrics 
+outputs/metrics/*_train.json
+
+# Figures 
+outputs/figures/*_loss_curve.png
+
+# OS/editor
+.DS_Store
+*.code-workspace
+
+# Database
+*.db
+# Private and large files
+.env
+.env.*
+*.ckpt
+*.pt
+*.pth
+!outputs/memory_banks/ready/*.pt
